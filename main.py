@@ -87,8 +87,11 @@ def count_down(count):
     else:
         start()
         mark = "✔"
+        global reps
         mark *= reps//2
         checkmarks["text"] = mark
+        if reps >= 8:
+            reps = 0
 
 
 pygame.mixer.init()
