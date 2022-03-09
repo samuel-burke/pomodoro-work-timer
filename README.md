@@ -10,6 +10,8 @@ https://youtu.be/mmtqyJ_NDsQ
 
 Setup:
 - Must have pygame installed
+- Must have tkmacosx installed
+- Program only supports MAC-OSX
 
 Overview:
 
